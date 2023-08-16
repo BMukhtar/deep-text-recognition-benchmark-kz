@@ -26,7 +26,15 @@ The difference between our paper and ICDAR challenge is summarized [here](https:
 - This work was tested with PyTorch 1.3.1, CUDA 10.1, python 3.6 and Ubuntu 16.04. <br> You may need `pip3 install torch==1.3.1`. <br>
 In the paper, expriments were performed with **PyTorch 0.4.1, CUDA 9.0**.
 - requirements : lmdb, pillow, torchvision, nltk, natsort
+
+Using conda or mamba
+``` bash
+conda install pytorch::pytorch torchvision torchaudio -c pytorch
+conda install lmdb pillow torchvision nltk natsort
 ```
+
+Using pip
+``` bash
 pip3 install lmdb pillow torchvision nltk natsort
 ```
 
